@@ -31,7 +31,6 @@ class _PayCalculatorScreenState extends State<PayCalculatorScreen> {
     final double totalHours = double.tryParse(hoursInput.text) ?? 0.0;
     final double hourlyPay = double.tryParse(rateInput.text) ?? 0.0;
 
-    // Validation for working hours
     if (totalHours > 48) {
       showDialog(
         context: context,
