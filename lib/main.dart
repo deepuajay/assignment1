@@ -31,7 +31,7 @@ class _PayCalculatorScreenState extends State<PayCalculatorScreen> {
     final double totalHours = double.tryParse(hoursInput.text) ?? 0.0;
     final double hourlyPay = double.tryParse(rateInput.text) ?? 0.0;
 
-    if (totalHours > 48) {
+    if (totalHours > 84) {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
