@@ -36,7 +36,7 @@ class _PayCalculatorScreenState extends State<PayCalculatorScreen> {
         context: context,
         builder: (context) => AlertDialog(
           title: Text('Invalid Entry'),
-          content: Text('Maximum working is 48 hours.'),
+          content: Text('Maximum working hours is 84.'),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
